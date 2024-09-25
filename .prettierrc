@@ -1,0 +1,9 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "tabWidth": 2,
+  "requirePragma": false,
+  "embeddedLanguageFormatting": "auto",
+  "printWidth": 120
+}
