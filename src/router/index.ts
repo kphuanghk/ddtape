@@ -8,7 +8,9 @@ const routes = [
   { path: '/users', component: () => import('@/views/UserManagement.vue') },
   { path: '/signal', component: () => import('@/views/Signal.vue') },
   { path: '/scan', component: () => import('@/views/Scan.vue') },
+  { path: '/socrates', component: () => import('@/views/Socrates.vue') },
   { path: '/localpdf', component: () => import('@/views/LocalPdf.vue') },
+  { path: '/tapeoverview', component: () => import('@/views/TapeOverview.vue') },
   { path: '/notfound', component: NotFound },
   { path: '/:catchAll(.*)', redirect: '/notfound' }
 ]

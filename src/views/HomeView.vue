@@ -4,6 +4,9 @@
       HomeView
     </div>
     <div>
+      <RouterLink to="/socrates">Socrates</RouterLink>
+    </div>
+    <div>
       <RouterLink to="/localpdf">LocalPDF</RouterLink>
     </div>
     <div>
@@ -14,6 +17,9 @@
     </div>
     <div>
       <RouterLink to="/users">Computed</RouterLink>
+    </div>
+    <div>
+      <RouterLink to="/tapeoverview">Tape Overview</RouterLink>
     </div>
   </div>
 </template>
